@@ -4,7 +4,7 @@ import { defineConfig } from "vite";
 export default defineConfig({
   plugins: [next()],
   ssr: {
-    // TODO: not sure build breaks without this
+    // TODO: not sure why build breaks without this
     noExternal: ["@mantine/**"],
   }
 });
