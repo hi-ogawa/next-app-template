@@ -10,10 +10,10 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: any }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" data-mantine-color-scheme="light">
       <head>
-        {/* TODO: still get hydration mismatch... */}
-        <ColorSchemeScript suppressHydrationWarning />
+        {/* TODO: this looks like a legitimate mismatch, so does Next.js do some trick to support this? */}
+        {false && <ColorSchemeScript />}
         <link rel="shortcut icon" href="/favicon.svg" />
         <meta
           name="viewport"
