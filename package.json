@@ -19,12 +19,12 @@
     "storybook:build": "storybook build"
   },
   "dependencies": {
-    "@hiogawa/react-server": "https://pkg.pr.new/hi-ogawa/vite-plugins/@hiogawa/react-server@c5ce9a1",
+    "@hiogawa/react-server": "https://pkg.pr.new/hi-ogawa/vite-plugins/@hiogawa/react-server@9bbecb3",
     "@mantine/core": "patch:@mantine/core@npm%3A7.11.2#~/.yarn/patches/@mantine-core-npm-7.11.2-bea7094f95.patch",
     "@mantine/hooks": "7.11.2",
     "@next/bundle-analyzer": "^14.2.4",
     "@tabler/icons-react": "^3.6.0",
-    "next": "https://pkg.pr.new/hi-ogawa/vite-plugins/@hiogawa/react-server-next@c5ce9a1",
+    "next": "https://pkg.pr.new/hi-ogawa/vite-plugins/@hiogawa/react-server-next@9bbecb3",
     "react": "rc",
     "react-dom": "rc",
     "react-server-dom-webpack": "rc",

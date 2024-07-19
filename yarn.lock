@@ -3045,11 +3045,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hiogawa/react-server@https://pkg.pr.new/hi-ogawa/vite-plugins/@hiogawa/react-server@c5ce9a1":
+"@hiogawa/react-server@https://pkg.pr.new/hi-ogawa/vite-plugins/@hiogawa/react-server@9bbecb3":
   version: 0.3.3
-  resolution: "@hiogawa/react-server@https://pkg.pr.new/hi-ogawa/vite-plugins/@hiogawa/react-server@c5ce9a1"
+  resolution: "@hiogawa/react-server@https://pkg.pr.new/hi-ogawa/vite-plugins/@hiogawa/react-server@9bbecb3"
   dependencies:
-    "@hiogawa/transforms": "https://pkg.pr.new/hi-ogawa/vite-plugins/@hiogawa/transforms@c5ce9a1"
+    "@hiogawa/transforms": "https://pkg.pr.new/hi-ogawa/vite-plugins/@hiogawa/transforms@9bbecb3"
     es-module-lexer: "npm:^1.4.1"
     fast-glob: "npm:^3.3.2"
     vitefu: "npm:^0.2.5"
@@ -3058,13 +3058,13 @@ __metadata:
     react-dom: "*"
     react-server-dom-webpack: "*"
     vite: "*"
-  checksum: 10c0/8cf7ea38626a6202fab1c55fe8c1f51973b4558269c4f542257067274b05d9900cfd8df99da295eb6ef96e69f4ad6bd9090db2fc9c345526233c3a940289e1ac
+  checksum: 10c0/cc51e6f4ea4aa67fad3258a03414af24ca1cb1271286b9ac40def7e37e05d03144fc3a5358caa05fea5d150e78614a02ca3050e22d8e956dabd42a7558592b7c
   languageName: node
   linkType: hard
 
-"@hiogawa/transforms@https://pkg.pr.new/hi-ogawa/vite-plugins/@hiogawa/transforms@c5ce9a1":
+"@hiogawa/transforms@https://pkg.pr.new/hi-ogawa/vite-plugins/@hiogawa/transforms@9bbecb3":
   version: 0.0.0
-  resolution: "@hiogawa/transforms@https://pkg.pr.new/hi-ogawa/vite-plugins/@hiogawa/transforms@c5ce9a1"
+  resolution: "@hiogawa/transforms@https://pkg.pr.new/hi-ogawa/vite-plugins/@hiogawa/transforms@9bbecb3"
   dependencies:
     estree-walker: "npm:^3.0.3"
     magic-string: "npm:^0.30.8"
@@ -3073,9 +3073,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hiogawa/vite-plugin-ssr-middleware@https://pkg.pr.new/hi-ogawa/vite-plugins/@hiogawa/vite-plugin-ssr-middleware@c5ce9a1":
+"@hiogawa/vite-plugin-ssr-middleware@https://pkg.pr.new/hi-ogawa/vite-plugins/@hiogawa/vite-plugin-ssr-middleware@9bbecb3":
   version: 0.0.3
-  resolution: "@hiogawa/vite-plugin-ssr-middleware@https://pkg.pr.new/hi-ogawa/vite-plugins/@hiogawa/vite-plugin-ssr-middleware@c5ce9a1"
+  resolution: "@hiogawa/vite-plugin-ssr-middleware@https://pkg.pr.new/hi-ogawa/vite-plugins/@hiogawa/vite-plugin-ssr-middleware@9bbecb3"
   peerDependencies:
     vite: "*"
   checksum: 10c0/68959be2f0150eeb901dca705f7e0304f01f974f20ef7bf04b61c53454af8dd0cf26287b0b24760152456c43670c958a3f6b83167c694f73bdcdba5c6df110c6
@@ -13006,7 +13006,7 @@ __metadata:
   resolution: "mantine-next-template@workspace:."
   dependencies:
     "@babel/core": "npm:^7.24.7"
-    "@hiogawa/react-server": "https://pkg.pr.new/hi-ogawa/vite-plugins/@hiogawa/react-server@c5ce9a1"
+    "@hiogawa/react-server": "https://pkg.pr.new/hi-ogawa/vite-plugins/@hiogawa/react-server@9bbecb3"
     "@mantine/core": "patch:@mantine/core@npm%3A7.11.2#~/.yarn/patches/@mantine-core-npm-7.11.2-bea7094f95.patch"
     "@mantine/hooks": "npm:7.11.2"
     "@next/bundle-analyzer": "npm:^14.2.4"
@@ -13039,7 +13039,7 @@ __metadata:
     eslint-plugin-testing-library: "npm:^6.2.2"
     jest: "npm:^29.7.0"
     jest-environment-jsdom: "npm:^29.7.0"
-    next: "https://pkg.pr.new/hi-ogawa/vite-plugins/@hiogawa/react-server-next@c5ce9a1"
+    next: "https://pkg.pr.new/hi-ogawa/vite-plugins/@hiogawa/react-server-next@9bbecb3"
     postcss: "npm:^8.4.38"
     postcss-preset-mantine: "npm:1.16.0"
     postcss-simple-vars: "npm:^7.0.1"
@@ -13467,11 +13467,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@https://pkg.pr.new/hi-ogawa/vite-plugins/@hiogawa/react-server-next@c5ce9a1":
+"next@https://pkg.pr.new/hi-ogawa/vite-plugins/@hiogawa/react-server-next@9bbecb3":
   version: 0.0.10
-  resolution: "next@https://pkg.pr.new/hi-ogawa/vite-plugins/@hiogawa/react-server-next@c5ce9a1"
+  resolution: "next@https://pkg.pr.new/hi-ogawa/vite-plugins/@hiogawa/react-server-next@9bbecb3"
   dependencies:
-    "@hiogawa/vite-plugin-ssr-middleware": "https://pkg.pr.new/hi-ogawa/vite-plugins/@hiogawa/vite-plugin-ssr-middleware@c5ce9a1"
+    "@hiogawa/vite-plugin-ssr-middleware": "https://pkg.pr.new/hi-ogawa/vite-plugins/@hiogawa/vite-plugin-ssr-middleware@9bbecb3"
     "@vitejs/plugin-react-swc": "npm:^3.7.0"
     esbuild: "npm:^0.20.2"
     vite-tsconfig-paths: "npm:^4.3.2"
@@ -13482,7 +13482,7 @@ __metadata:
     vite: "*"
   bin:
     next: ./bin/cli.js
-  checksum: 10c0/f9f560bb17e7d52a3d361a677392d0d29e7bd9f88857248277d31b85fe87e4a16c2bf9104b0ec3134576db977667adcaa72917dd302ffb4a640547bf2170e2ae
+  checksum: 10c0/d165cb39282964b00845950ef61c73f194f14408594dd2ab75e416bc51ff358f36075f8de3f656aa7d44a558361705a7d44ba2a3ea57c788917591d6f406d8c7
   languageName: node
   linkType: hard
 

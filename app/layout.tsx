@@ -12,6 +12,7 @@ export default function RootLayout({ children }: { children: any }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <ColorSchemeScript />
         <link rel="shortcut icon" href="/favicon.svg" />
         <meta
           name="viewport"
@@ -19,15 +20,6 @@ export default function RootLayout({ children }: { children: any }) {
         />
       </head>
       <body>
-        {/*
-          TODO
-          hydration mismatch when client head render, so for now we move it to body.
-          probably this is due to how we manage ssr head.
-          It seems Next.js somehow tolorates client head render, so probably there's some trick.
-          Probably Ideally Maintine should ship `ColorSchemeScript` as server component
-          and that would probably be more robust against hydration error (also reduces client assets).
-        */}
-        <ColorSchemeScript />
         <MantineProvider theme={theme}>{children}</MantineProvider>
       </body>
     </html>
