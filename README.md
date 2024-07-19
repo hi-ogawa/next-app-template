@@ -1,3 +1,10 @@
+```
+vercel projects add mantine-next-vite
+vercel link -p mantine-next-vite
+VERCEL=1 yarn build
+vercel deploy --prebuilt --prod
+```
+
 # Mantine Next.js template
 
 This is a template for [Next.js](https://nextjs.org/) app router + [Mantine](https://mantine.dev/).
